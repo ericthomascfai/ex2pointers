@@ -24,7 +24,7 @@ void display_pointed() {
 
 void entervalue() {
     printf("Veuillez saisir une nouvel entier");
-    scanf("%d",&inombre);
+    scanf("%d",iptr);
 }
 
 void display_adresse_pointer() {
@@ -74,4 +74,11 @@ void menu() {
             exit(1);
 
     }
+}
+
+int main()
+{
+
+    menu();
+    return 0;
 }
